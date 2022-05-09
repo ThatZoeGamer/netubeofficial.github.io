@@ -443,7 +443,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://yt3.ggpht.com/ytc/AKedOLQ7yIeu4jc4L3L2taITJsRYsH_8jPAIGQjE-7Oo=s176-c-k-c0x00ffffff-no-rj");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("\netube logo.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
