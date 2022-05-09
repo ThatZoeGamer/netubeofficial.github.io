@@ -478,3 +478,9 @@ body, html {
   color: white;
   border-radius: 5px;
 }
+
+.headingtext {
+  font-size:50px;
+  font-family: 'Koulen', cursive;
+}
+	
