@@ -1,0 +1,14 @@
+ body {
+  background-color: black;
+}
+.data {
+  display: none;
+}
+.g-signin2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  
+}
