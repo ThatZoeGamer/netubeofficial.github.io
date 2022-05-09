@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Netube Login</title>
+    <link rel="shortcut icon" href="\netube logo.jpg">
+    <script src="loginscript.js"></script>
+    <meta name="google-signin-client_id" content="678682528722-o14jnqmflp6136b17if8ohpgh6o9g2a5.apps.googleusercontent.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="netubemainmenustylesheet.css">
+  </head>
+  <body>
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    
+    <div class="data">
+      <p id="name" class="information"></p>
+      <center>
+      <img id="image" class="rounded-circle" width="100" height="100" />
+      </center>
+      <p id="email" class="information"></p>
+      <center>
+      <button type="button" class="btn btn-danger" onclick="signOut();">sign Out</button>
+      </center>
+    </div>
+  
+  </body>
+</html>
