@@ -1,3 +1,3 @@
-document.getElementById("myButton").onclick = function () {
-        location.href = "www.yoursite.com";
+document.getElementById("join-netube-button").onclick = function () {
+        location.href = "\";
     };
