@@ -112,6 +112,44 @@
   opacity: 1;
   right: 0;
 }
+.go-back-button {
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 450px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.go-back-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.go-back-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.go-back-button:hover span {
+  padding-right: 25px;
+}
+
+.go-back-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 body {
 background-color: black;
 }
