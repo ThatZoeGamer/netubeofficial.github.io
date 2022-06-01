@@ -236,6 +236,9 @@ body.welcome {
 .topnav {
   background-color: black;
   overflow: hidden;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 /* Style the links inside the navigation bar */
